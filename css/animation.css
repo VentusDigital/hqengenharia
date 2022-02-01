@@ -12,7 +12,7 @@
     animation-iteration-count: infinite;
 }
 .projeto01 .fotos01 img{
-    width: 100%;
+    width: 25%;
 }
 @keyframes loop01{
     0% { margin-left: 0;}
@@ -26,6 +26,7 @@
 
 
 
+
 .projeto02{
     width: 640px;
     height: 640px;
@@ -34,8 +35,11 @@
 .fotos02{
     width: 300%;
     animation-name: loop02;
-    animation-duration: 20s;
+    animation-duration: 15s;
     animation-iteration-count: infinite;
+}
+.projeto02 .fotos02 img{
+    width: 34%;
 }
 @keyframes loop02{
     0% { margin-left: 0;}
@@ -44,9 +48,8 @@
     90% { margin-left: -100%;}
     100% { margin-left: -200%;}
 }
-.projeto02 .fotos02 img{
-    width: 100%;
-}
+
+
 
 .projeto03{
     width: 640px;
@@ -59,6 +62,9 @@
     animation-duration: 20s;
     animation-iteration-count: infinite;
 }
+.projeto03 .fotos03 img{
+    width: 25%;
+}
 @keyframes loop03{
     0% { margin-left: 0;}
     30% { margin-left: 0;}
@@ -67,7 +73,4 @@
     70% { margin-left: -200%;}
     95% { margin-left: -200%;}
     100% { max-width: -300%;}
-}
-.projeto03 .fotos03 img{
-    width: 100%;
 }

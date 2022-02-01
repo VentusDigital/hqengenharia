@@ -2,6 +2,8 @@
 @import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Sans+Thai+Looped:wght@100;200;300;400;500;600;700&display=swap');
 /*font-family: 'IBM Plex Sans Thai Looped', sans-serif;*/
 :root{
+    /* #4F88CF*/
+    --azul: #4F88CF;
 
 }
 *{
@@ -31,7 +33,11 @@ header img{
     display: block;
     margin-left: auto;
     margin-right: auto;
+    margin-bottom: auto;
     transition-duration: 1.5s;
+}
+.logo:hover{
+    width: 45%;
 }
 header a{
     font-family: 'Montserrat', sans-serif;
@@ -48,7 +54,7 @@ header a{
 }
 header a:hover{
     transition-duration: 0.4s;
-    background-color: rgb(0, 0, 0, 0.6);
+    background-color: var(--azul);
     box-shadow: 0px 10px 30px 0px rgba(0, 0, 0, 0.3);
     font-size: 1.05em;
 }
@@ -62,21 +68,20 @@ header a:hover{
 }
 
 .slogan{
-    width: 100%;
+    width: 80%;
+    margin: 80px auto;
     text-align: center;
     /*font-family: 'IBM Plex Sans Thai Looped', sans-serif;*/
     font-family: 'Montserrat', sans-serif;
-    font-weight: 500;
-    font-size: 1.5em;
+    font-weight: 600;
+    font-size: 1.2em;
     letter-spacing: 2px;
     word-spacing: 2px;
     text-transform: uppercase;
-    overflow: auto;
-    transition-duration: 0.4s;
+    transition-duration: 0.5s;
 }
 .slogan:hover{
     letter-spacing: 0px;
-    word-spacing: 20px;
     transition-duration: 0.4s;
 }
 
@@ -84,7 +89,8 @@ main{
     height: 100%;
     width: 80%;
     margin: auto;
-    padding-top: 50px;
+    margin-top: -60px;
+    padding-top: 100px;
     padding-bottom: 50px;
     background-color: black;
     border-radius: 0px 0px 20px 20px;
@@ -96,21 +102,17 @@ video{
     height: 300px;
     justify-content: center;
 }
-section{
-    width: 100%;
-    margin: auto;
+picture{
+    width: 20%;
 }
 img{
     width: 100%;
-    margin: auto;
 }
 article{
     margin: 50px;
 }
 .projeto01, .projeto02, .projeto03{
-    display: flex;
-    flex-direction: row;
-    width: 100%;
+    width: 10%;
     margin: 100px auto;
     justify-content: center;
     color: white;
