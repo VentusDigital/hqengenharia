@@ -1,0 +1,73 @@
+@charset "UTF-8";
+
+.projeto01{
+    width: 640px;
+    height: 360px;
+    overflow: hidden;
+}
+.fotos01{
+    width: 400%;
+    animation-name: loop01;
+    animation-duration: 20s;
+    animation-iteration-count: infinite;
+}
+.projeto01 .fotos01 img{
+    width: 100%;
+}
+@keyframes loop01{
+    0% { margin-left: 0;}
+    30% { margin-left: 0;}
+    35% { margin-left: -100%;}
+    65% { margin-left: -100%;}
+    70% { margin-left: -200%;}
+    95% { margin-left: -200%;}
+    100% { max-width: -300%;}
+}
+
+
+
+.projeto02{
+    width: 640px;
+    height: 640px;
+    overflow: hidden;
+}
+.fotos02{
+    width: 300%;
+    animation-name: loop02;
+    animation-duration: 20s;
+    animation-iteration-count: infinite;
+}
+@keyframes loop02{
+    0% { margin-left: 0;}
+    45% { margin-left: 0;}
+    50% { margin-left: -100%;}
+    90% { margin-left: -100%;}
+    100% { margin-left: -200%;}
+}
+.projeto02 .fotos02 img{
+    width: 100%;
+}
+
+.projeto03{
+    width: 640px;
+    height: 436px;
+    overflow: hidden;
+}
+.fotos03{
+    width: 400%;
+    animation-name: loop03;
+    animation-duration: 20s;
+    animation-iteration-count: infinite;
+}
+@keyframes loop03{
+    0% { margin-left: 0;}
+    30% { margin-left: 0;}
+    35% { margin-left: -100%;}
+    65% { margin-left: -100%;}
+    70% { margin-left: -200%;}
+    95% { margin-left: -200%;}
+    100% { max-width: -300%;}
+}
+.projeto03 .fotos03 img{
+    width: 100%;
+}
