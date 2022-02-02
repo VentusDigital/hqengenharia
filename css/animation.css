@@ -8,7 +8,7 @@
 .fotos01{
     width: 400%;
     animation-name: loop01;
-    animation-duration: 20s;
+    animation-duration: 15s;
     animation-iteration-count: infinite;
 }
 .projeto01 .fotos01 img{
@@ -35,7 +35,7 @@
 .fotos02{
     width: 300%;
     animation-name: loop02;
-    animation-duration: 15s;
+    animation-duration: 10s;
     animation-iteration-count: infinite;
 }
 .projeto02 .fotos02 img{
@@ -59,7 +59,7 @@
 .fotos03{
     width: 400%;
     animation-name: loop03;
-    animation-duration: 20s;
+    animation-duration: 15s;
     animation-iteration-count: infinite;
 }
 .projeto03 .fotos03 img{

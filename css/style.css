@@ -26,6 +26,7 @@ header img{
     width: 100%;
     height: auto;
     margin: auto;
+    box-shadow: inset 10px 10px 50px black;
 }
 .logo{
     width: 40%;
@@ -58,6 +59,17 @@ header a:hover{
     box-shadow: 0px 10px 30px 0px rgba(0, 0, 0, 0.3);
     font-size: 1.05em;
 }
+h1{
+    width: 100%;
+    font-size: 2.5em;
+    text-align: center;
+}
+h2{
+    margin: 10px 0px 10px 0px;
+}
+p{
+    text-indent: 30px;
+}
 .nav-header{ 
     background-color: black;
     color: white;
@@ -68,8 +80,9 @@ header a:hover{
 }
 
 .slogan{
+    text-indent: 0px;
     width: 80%;
-    margin: 80px auto;
+    margin: 50px auto;
     text-align: center;
     /*font-family: 'IBM Plex Sans Thai Looped', sans-serif;*/
     font-family: 'Montserrat', sans-serif;
@@ -94,6 +107,7 @@ main{
     padding-bottom: 50px;
     background-color: black;
     border-radius: 0px 0px 20px 20px;
+    box-shadow: 0px 0px 30px 5px rgb(0, 0, 0, 0.3);
 }
 video{
     display: flex;
