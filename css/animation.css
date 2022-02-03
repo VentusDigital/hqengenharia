@@ -1,8 +1,7 @@
 @charset "UTF-8";
 
 .projeto01{
-    width: 640px;
-    height: 360px;
+    width: 80%;
     overflow: hidden;
 }
 .fotos01{
@@ -28,8 +27,7 @@
 
 
 .projeto02{
-    width: 640px;
-    height: 640px;
+    width: 80%;
     overflow: hidden;
 }
 .fotos02{
@@ -52,8 +50,7 @@
 
 
 .projeto03{
-    width: 640px;
-    height: 436px;
+    width: 80%;
     overflow: hidden;
 }
 .fotos03{
