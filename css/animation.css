@@ -37,7 +37,7 @@
     animation-iteration-count: infinite;
 }
 .projeto02 .fotos02 img{
-    width: 34%;
+    width: 33.3%;
 }
 @keyframes loop02{
     0% { margin-left: 0;}
